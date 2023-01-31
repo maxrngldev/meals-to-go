@@ -1,0 +1,14 @@
+{
+  "extends": ["@react-native-community", "plugin:prettier/recommended"],
+  "plugins": ["prettier"],
+  "rules": {
+    "prettier/prettier": {},
+    "arrow-body-style": "off",
+    "prefer-arrow-callback": "off",
+    "quotes": [
+      2,
+      "single",
+      { "avoidEscape": true, "allowTemplateLiterals": true }
+    ]
+  }
+}
